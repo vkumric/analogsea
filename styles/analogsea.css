@@ -1,0 +1,32 @@
+body {
+    background-color: skyblue;
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    height: 35px;
+    margin: 30px auto;
+}
+h1 {
+    color: rgba(3, 3, 3, 0.562);
+    font-weight: 300;
+    text-align: center;
+}
+.demo-form {
+    width: 400px;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 40px;
+}
+input, button {
+    display: block;
+    width: 320px;
+    height: auto;
+    padding: 15px;
+    border: 2px solid #DDDDDD;
+    border-radius: 3px; 
+}
