@@ -1,23 +1,32 @@
 body {
-    background-color: skyblue;
-    font-family: Roboto, sans-serif;
+    background-color: #298eea;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    padding: 40px 0px 0px;
+    padding: 60px 0 0;
+    margin: 0;
+    font-size: 18px;
 }
+fieldset {
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
 img {
     display: block;
+    width: auto;
     height: 35px;
-    margin: 30px auto;
+    margin: 0 auto 30px;
 }
-h1 {
-    color: rgba(3, 3, 3, 0.562);
+legend {
+    color: #565656;
     font-weight: 300;
+    font-size: 35px;
     text-align: center;
+    margin: 0 auto 45px;
+    width: 100%;
 }
 .demo-form {
     width: 400px;
-    height: 100%;
-    border: 1px solid white;
     border-radius: 3px;
     background-color: white;
     margin: 0 auto;
@@ -25,28 +34,42 @@ h1 {
 }
 input, button {
     display: block;
-    width: 365px;
+    width: 100%;
     height: auto;
     padding: 15px;
     margin: 10px auto 20px;
     border: 2px solid #e7e7e7;
+    background: #fcfcfc;
     border-radius: 3px; 
+    text-align: left;
+    font-size: 18px;
 }
-fieldset {
-    padding: 0;
-    border: 0;
-    margin: 0;
-}
+
 #forgot-password {
+    display: block;
     text-align: center;
+    margin: 0px auto;
 }
-.footer {
+.login a {
+    color: rgb(255, 255, 255);    
+}
+footer {
+    font-weight: 600;
+    color: rgb(255, 255, 255);
     text-align: center;
-    color: rgb(255, 255, 255);
-}
-.footer a {
-    color: rgb(255, 255, 255);
+    margin: 10px 0 0;
 }
 #submit {
     width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    background: #15CD72;
+    color: white;
+    margin-top: 20px;
+}
+#email, #password {
+    width: 366px;
+    margin: 10px auto;
 }

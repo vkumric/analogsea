@@ -10,16 +10,17 @@
     <img src="images/logo.png">
     <form class="demo-form" action="/signup/" method="post">
         <fieldset>
-            <h1>Sign up</h1>
-            <label for="email" id="email-label">Email</label><br>
-            <input type="email" name="email" id="email" placeholder="foo@bar.com" required><br>                <label for="password" id="password-label">Password</label><br>
-            <input type="password" name="password" id="password" placeholder="1234passw0rd" required><br>
-            <button type="submit" id="submit">Sign Up</button><br>
+            <legend>Sign up</legend>
+            <label for="email" id="email-label">Email</label>
+            <input type="email" name="email" id="email" placeholder="foo@bar.com" required>              
+            <label for="password" id="password-label">Password</label>
+            <input type="password" name="password" id="password" placeholder="1234passw0rd" required>
+            <button type="submit" id="submit">Sign Up</button>
             <a id="forgot-password" href="/forgot-password/new">Forgot password?</a>
         </fieldset> 
     </form>
     <footer role="contentinfo" class="footer">
-        <p>Already have an account? <a href="/login">Log in</a></p>
+        <p class="login">Already have an account? <a href="/login">Log in</a></p>
     </footer>
     
     
