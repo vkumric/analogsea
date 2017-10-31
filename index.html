@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" name="description" content="AnalogSea Sign Up">
     <title>AnalogSea Sign Up</title>
     <link rel="stylesheet" href="styles/analogsea.css" type="text/css">
 </head>
@@ -11,10 +10,10 @@
     <form class="demo-form" action="/signup/" method="post">
         <fieldset>
             <legend>Sign up</legend>
-            <label for="email" id="email-label">Email</label>
-            <input type="email" name="email" id="email" placeholder="foo@bar.com" required>              
-            <label for="password" id="password-label">Password</label>
-            <input type="password" name="password" id="password" placeholder="1234passw0rd" required>
+            <label for="user-email" id="email-label">Email</label>
+            <input type="email" name="user-email" id="email" placeholder="foo@bar.com" required>              
+            <label for="user-password" id="password-label">Password</label>
+            <input type="password" name="user-password" id="password" placeholder="1234passw0rd" required>
             <button type="submit" id="submit">Sign Up</button>
             <a id="forgot-password" href="/forgot-password/new">Forgot password?</a>
         </fieldset> 
@@ -22,7 +21,5 @@
     <footer role="contentinfo" class="footer">
         <p class="login">Already have an account? <a href="/login">Log in</a></p>
     </footer>
-    
-    
 </body>
 </html>
